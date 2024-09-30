@@ -1,0 +1,164 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    /*background-image: url("20240811_150902.jpg");
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    font-family: Arial, sans-serif;
+    color: rgb(19, 1, 1);
+    background-color: rgb(240, 238, 247);
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header styling */
+header {
+    background-image: url("20240820_105609.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+    background-color: rgb(14, 3, 44);
+    color: rgba(244, 242, 247, 0.281);
+    padding: .5rem;
+    text-align: center;
+    border-bottom: 10px solid rgba(213, 227, 248, 0.445);
+}
+
+
+/* Main section styling */
+main {
+    margin-left: 150px; /* Push the content to the right, to make space for the sidebar */
+    padding: 15px;
+    padding: 3rem;
+}
+
+.nav {
+    margin-left: 150px;
+}
+.nav ul {
+    margin-left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(229, 229, 241);
+}
+
+.nav li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    display: inline;
+    color: rgb(104, 16, 16);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+
+/* Side bar section styling*/
+.sidebar {
+    height: 100vh; /* Full height of the viewport */
+    width: 150px; /* Set a fixed width */
+    position: fixed; /* Fix it to the left side */
+    left: 0; /* Align it to the left */
+    top: 0; /* Start from the top */
+    background-color: #676a94; /* Background color of the sidebar */
+    padding-top: 60px; /* Padding at the top */
+}
+
+/* Navigation list inside the sidebar */
+.sidebar ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+/* Sidebar list items */
+.sidebar ul li {
+    margin: 5px;
+}
+
+/* Links inside the sidebar */
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgb(226, 225, 231);
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* Change color on hover */
+.sidebar ul li a:hover {
+    background-color: #5e1111;
+    color: #f3eded;
+}
+
+
+
+/* Gallery styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Gallery item styling */
+.gallery-item {
+    border: 2px solid rgb(234, 238, 243);
+    padding: 1rem;
+    max-width: 200px;
+    max-height: 150px;
+    position: relative;
+}
+
+/* Gallery item image styling */
+.gallery-item img {
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;    /* Ensures the image does not overflow the container */
+    position: relative;  /* Allows for better control over inner elements */
+    border-radius: 2px; /* Optional: adds rounded corners to the container */
+    object-fit: cover;   /* Ensures the image covers the container without distortion */
+    transition: transform 0.2s ease-in-out;  /* Smooth transition on hover */
+    cursor: pointer;     /* Change cursor to pointer when hovering */
+}
+
+/* Image expands when hovered */
+.gallery-item img:hover {
+    transform: scale(3);   /* Expands the image to % of its size */
+    object-fit: cover;       /* Maintain aspect ratio and cover container */
+    z-index: 1;
+}
+
+/* Gallery item description styling */
+.gallery-item p {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+
+/* Tooltip styling */
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
