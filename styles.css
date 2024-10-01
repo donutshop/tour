@@ -25,9 +25,7 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden; /* Prevents overflow */
-
 }
-
 
 /* Header styling */
 header {
@@ -37,12 +35,11 @@ header {
     background-attachment: fixed;
 
     background-color: rgb(14, 3, 44);
-    color: rgba(244, 242, 247, 0.281);
+    color: rgb(105, 105, 105);
     padding: .5rem;
     text-align: center;
     border-bottom: 10px solid rgba(213, 227, 248, 0.445);
 }
-
 
 /* Main section styling */
 main {
@@ -54,6 +51,7 @@ main {
 .nav {
     margin-left: 150px;
 }
+
 .nav ul {
     margin-left: 0;
     list-style-type: none;
@@ -76,7 +74,6 @@ main {
 
 /* Side bar section styling*/
 .sidebar {
-   
     margin: 0;
     height: 100vh; /* Full height of the viewport */
     width: 120px; /* Set a fixed width */
@@ -112,8 +109,6 @@ main {
     background-color: #18273580;
     color: #f3eded;
 }
-
-
 
 /* Gallery styling */
 .gallery {
