@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;*/
 
-    background-image: url("stockvault-early-foggy-morning147063.jpg");
+    background-image: url("early-sunrays102413.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ body {
 
 /* Header styling */
 header {
-    background-image: url("stockvault-early-foggy-morning147063.jpg");
+    background-image: url("early-sunrays102413.jpg");
     background-size: none;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ main {
 /* Links inside the sidebar */
 .sidebar ul li a {
     text-decoration: none;
-    color: rgb(226, 225, 231);
+    color: dark gray;
     display: block;
     padding: 10px 20px;
     font-size: 15px;
