@@ -1,7 +1,6 @@
 /* Reset default margin and padding */
 body, h1, p {
-    margin: 0;
-    padding: 0;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +8,16 @@ body, h1, p {
 
 /* Basic styling for body */
 body {
-    /*background-image: url("20240811_150902.jpg");
+    /*background-image: url("Low-angle-composition.jpg");
     background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;*/
+
+    background-image: url("Mass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     color: rgb(19, 1, 1);
     background-color: rgb(240, 238, 247);
@@ -25,10 +29,11 @@ body {
 
 /* Header styling */
 header {
-    background-image: url("20240820_105609.jpg");
-    background-position: center;
+    background-image: url("Mass2.jpg");
+    background-size: none;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+
     background-color: rgb(14, 3, 44);
     color: rgba(244, 242, 247, 0.281);
     padding: .5rem;
@@ -39,7 +44,7 @@ header {
 
 /* Main section styling */
 main {
-    margin-left: 150px; /* Push the content to the right, to make space for the sidebar */
+    margin-left: 100px; /* Push the content to the right, to make space for the sidebar */
     padding: 15px;
     padding: 3rem;
 }
@@ -53,7 +58,7 @@ main {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(229, 229, 241);
+    background-color: none;
 }
 
 .nav li {
@@ -69,13 +74,15 @@ main {
 
 /* Side bar section styling*/
 .sidebar {
+   
+    margin: 0;
     height: 100vh; /* Full height of the viewport */
-    width: 150px; /* Set a fixed width */
+    width: 120px; /* Set a fixed width */
     position: fixed; /* Fix it to the left side */
     left: 0; /* Align it to the left */
     top: 0; /* Start from the top */
-    background-color: #676a94; /* Background color of the sidebar */
-    padding-top: 60px; /* Padding at the top */
+    background-color: none; /* Background color of the sidebar */
+    padding-top: 100px; /* Padding at the top */
 }
 
 /* Navigation list inside the sidebar */
@@ -100,7 +107,7 @@ main {
 
 /* Change color on hover */
 .sidebar ul li a:hover {
-    background-color: #5e1111;
+    background-color: #18273580;
     color: #f3eded;
 }
 
@@ -110,12 +117,12 @@ main {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 /* Gallery item styling */
 .gallery-item {
-    border: 2px solid rgb(234, 238, 243);
+    border: none;
     padding: 1rem;
     max-width: 200px;
     max-height: 150px;
@@ -129,7 +136,7 @@ main {
     display: block;
     overflow: hidden;    /* Ensures the image does not overflow the container */
     position: relative;  /* Allows for better control over inner elements */
-    border-radius: 2px; /* Optional: adds rounded corners to the container */
+    border-radius: 5px; /* Optional: adds rounded corners to the container */
     object-fit: cover;   /* Ensures the image covers the container without distortion */
     transition: transform 0.2s ease-in-out;  /* Smooth transition on hover */
     cursor: pointer;     /* Change cursor to pointer when hovering */
