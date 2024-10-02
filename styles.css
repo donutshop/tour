@@ -24,7 +24,7 @@ body {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-    overflow: hidden; /* Prevents overflow */
+    overflow-x: hidden; /* Allow vertical scrolling but prevent horizontal scrolling */
 }
 
 /* Header styling */
@@ -168,16 +168,4 @@ main {
 }
 
 
-const images = document.querySelectorAll('.gallery-item img');
 
-    images.forEach(image => {
-        // Add touchstart event to expand the image on tap
-        image.addEventListener('touchstart', () => {
-            image.style.transform = 'scale(3)'; // Expand on tap
-        });
-
-        // Add touchend event to shrink the image back after tap
-        image.addEventListener('touchend', () => {
-            image.style.transform = 'scale(1)'; // Shrink back on release
-        });
-    });
