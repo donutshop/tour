@@ -82,6 +82,7 @@ main {
     top: 0; /* Start from the top */
     background-color: none; /* Background color of the sidebar */
     padding-top: 100px; /* Padding at the top */
+    color: rgb(105, 105, 105);
 }
 
 /* Navigation list inside the sidebar */
@@ -98,7 +99,7 @@ main {
 /* Links inside the sidebar */
 .sidebar ul li a {
     text-decoration: none;
-    color: dark gray;
+    color: rgb(105, 105, 105);
     display: block;
     padding: 10px 20px;
     font-size: 15px;
