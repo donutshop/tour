@@ -81,8 +81,8 @@ main {
     left: 0; /* Align it to the left */
     top: 0; /* Start from the top */
     background-color: none; /* Background color of the sidebar */
-    padding-top: 100px; /* Padding at the top */
-    color: rgb(105, 105, 105);
+    padding-top: 10px; /* Padding at the top */
+    color: silver;
 }
 
 /* Navigation list inside the sidebar */
