@@ -35,7 +35,7 @@ header {
     background-attachment: fixed;
 
     background-color: rgb(14, 3, 44);
-    color: rgb(105, 105, 105);
+    color: silver;
     padding: .5rem;
     text-align: center;
     border-bottom: 10px solid rgba(213, 227, 248, 0.445);
@@ -65,7 +65,7 @@ main {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     display: inline;
-    color: rgb(104, 16, 16);
+    color: silver;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;  
@@ -142,7 +142,7 @@ main {
 
 /* Image expands when hovered */
 .gallery-item img:hover {
-    transform: scale(3);   /* Expands the image to % of its size */
+    transform: scale(2.5);   /* Expands the image to % of its size */
     object-fit: cover;       /* Maintain aspect ratio and cover container */
     z-index: 10;
 }
