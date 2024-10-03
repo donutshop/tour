@@ -80,7 +80,7 @@ main {
     left: 0; /* Align it to the left */
     top: 0; /* Start from the top */
     background-color: none; /* Background color of the sidebar */
-    padding-top: 10px; /* Padding at the top */
+    padding-top: 100px; /* Padding at the top */
     color: silver;
 }
 
@@ -121,7 +121,7 @@ main {
 .gallery-item {
     border: none;
     padding: 1rem;
-    max-width: 200px;
+    max-width: 250px;
     max-height: 150px;
     position: left;
 }
