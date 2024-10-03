@@ -75,8 +75,8 @@ main {
 /* Side bar section styling*/
 .sidebar {
     margin: 0;
-    height: 100vh; /* Full height of the viewport */
-    width: 120px; /* Set a fixed width */
+    height: 60vh; /* Full height of the viewport */
+    width: 100px; /* Set a fixed width */
     position: fixed; /* Fix it to the left side */
     left: 0; /* Align it to the left */
     top: 0; /* Start from the top */
@@ -124,7 +124,7 @@ main {
     padding: 1rem;
     max-width: 200px;
     max-height: 150px;
-    position: relative;
+    position: left;
 }
 
 /* Gallery item image styling */
@@ -151,6 +151,7 @@ main {
 .gallery-item p {
     margin-top: 0.5rem;
     text-align: center;
+    font-family
 }
 
 
