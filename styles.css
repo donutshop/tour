@@ -43,8 +43,7 @@ header {
 
 /* Main section styling */
 main {
-    margin-left: 100px; /* Push the content to the right, to make space for the sidebar */
-    padding: 15px;
+    margin-left: 50px; /* Push the content to the right, to make space for the sidebar */
     padding: 3rem;
 }
 
